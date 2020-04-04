@@ -8,7 +8,10 @@ import 'element-ui/lib/theme-chalk/index.css';
 import { Button, Select } from 'element-ui';
 
 import Element from 'element-ui';
+import Api from './api/index.js';
 
+//axios
+Vue.prototype.$api = Api;
 
 Vue.use(ElementUI);
 //引入Button 和 Select，插件
